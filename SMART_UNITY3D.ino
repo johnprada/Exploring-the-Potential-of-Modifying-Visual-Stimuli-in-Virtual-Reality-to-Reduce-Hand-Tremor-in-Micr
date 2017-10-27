@@ -61,7 +61,7 @@ float temperature;
 int data;
 void setup()
 {
-  Serial.begin(38400); // Start serial at 38400 bps
+  Serial.begin(250000); // Start serial at 250k bps
  
   // Set up interrupt pins as inputs:
   pinMode(INT1XM, INPUT);
